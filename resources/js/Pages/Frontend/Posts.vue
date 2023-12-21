@@ -12,7 +12,7 @@ import {Link} from "@inertiajs/vue3";
                                 2020</span><a href="#"
                                               class="px-2 py-1 font-bold text-gray-100 bg-gray-600 rounded hover:bg-gray-500">Laravel</a>
             </div>-->
-            <div class="mt-2"><a href="#" class="text-2xl font-bold text-gray-700 hover:underline">Build
+            <div class="mt-2"><a href="#" class="text-2xl font-bold text-gray-700 hover:underline">
                {{post.title}}</a>
                 <p class="mt-2 text-gray-600">{{ post.content }}</p>
             </div>

@@ -25,6 +25,8 @@ Route::get('/test', function () {
 });
 
 
+
+
 Route::middleware('checkUserRole:2')->group(function () {
 
 Route::get('dashboard-subs', [\App\Http\Controllers\Backend\Subscriber\ContentController::class, 'index'])->name('subs.dash');
